@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ankitbulchandani.registerandlogin.Admin_Select_module">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Ages"
+        android:id="@+id/admin_ages"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="ages_admin"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Average"
+        android:id="@+id/admin_average"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="average_admin"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Percentage"
+        android:id="@+id/admin_percentage"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="percentage_admin"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Area and Volumes"
+        android:id="@+id/admin_area"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/admin_ages"
+        android:layout_alignParentStart="true"
+        android:onClick="area_admin"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Logarithms"
+        android:id="@+id/admin_logarithms"
+        android:layout_alignTop="@+id/admin_area"
+        android:layout_alignStart="@+id/admin_average"
+        android:onClick="logarithm_admin"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Clock"
+        android:id="@+id/admin_clock"
+        android:layout_alignTop="@+id/admin_logarithms"
+        android:layout_alignStart="@+id/admin_percentage"
+        android:onClick="clock_admin"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Profit and Loss"
+        android:id="@+id/admin_profit"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/admin_area"
+        android:layout_alignParentStart="true"
+        android:onClick="profit_admin"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Ratio and Propotion"
+        android:id="@+id/admin_ratio"
+        android:layout_alignTop="@+id/admin_profit"
+        android:layout_alignStart="@+id/admin_logarithms"
+        android:onClick="ratio_admin"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Add to Square Root"
+        android:id="@+id/admin_squareroot"
+        android:layout_alignTop="@+id/admin_ratio"
+        android:layout_alignStart="@+id/admin_clock"
+        android:onClick="squareroot_admin"
+        />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ankitbulchandani.registerandlogin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/oes128"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Home" />
+        <activity android:name=".StudyMode" />
+        <activity android:name=".TestMode" />
+        <activity android:name=".ChallengeMode" />
+        <activity android:name=".History" />
+        <activity android:name=".Ages" />
+        <activity android:name=".Average" />
+        <activity android:name=".Percentage" />
+        <activity android:name=".Area_and_Volume" />
+        <activity android:name=".Logarithm" />
+        <activity android:name=".Clock" />
+        <activity android:name=".Profit_and_lost" />
+        <activity android:name=".Ratio_and_Propotion" />
+        <activity android:name=".Square_root" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".UpadateDatabase" />
+        <activity android:name=".Admin_Select_module" />
+        <activity android:name=".Admin_Average" />
+        <activity android:name=".Admin_Percentage" />
+        <activity android:name=".Admin_Area" />
+        <activity android:name=".Admin_Logarithms" />
+        <activity android:name=".Admin_Clock" />
+        <activity android:name=".Admin_Profit" />
+        <activity android:name=".Admin_Ratio" />
+        <activity android:name=".Admin_Squareroot" />
+        <activity android:name=".Test_Ages" />
+        <activity android:name=".Test_Average"></activity>
+    </application>
+
+</manifest>

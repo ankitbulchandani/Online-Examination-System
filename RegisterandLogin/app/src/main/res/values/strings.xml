@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Online_Examination</string>
+    <string name="study_mode">Study Mode</string>
+    <string name="test_mode">Test Mode</string>
+    <string name="challenge_mode">Video Mode</string>
+    <string name="history_mode">History</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+</resources>
